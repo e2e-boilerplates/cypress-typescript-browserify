@@ -59,3 +59,13 @@ typings/
 
 # next.js build output
 .next
+
+# cypress
+cypress/videos/
+cypress/screenshot/
+
+# WebStorm
+.idea
+
+# OS X
+.DS_Store
