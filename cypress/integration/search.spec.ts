@@ -1,21 +1,10 @@
-describe("google search", () => {
+describe("Sandbox", () => {
   before(() => {
-    cy.visit("https://www.google.com");
+    cy.visit("https://e2e-boilerplates.github.io/sandbox/");
   });
 
-  it("should be on google search page", () => {
-    cy.title().should("eq", "Google");
-  });
-
-  it(`should search for Cheese!`, () => {
-    cy.fixture("data").should(d => {
-      cy.get(".gLFyf.gsfi").type(`${d.searchWord}{enter}`);
-    });
-  });
-
-  it(`the page title should start with Cheese!`, () => {
-    cy.fixture("data").should(d => {
-      cy.title().should("contain", d.searchWord);
-    });
+  it("should be on Sandbox", () => {
+    cy.title().should("eq", "Sandbox");
+    cy.get("h1").should("have.text", "Sandbox");
   });
 });

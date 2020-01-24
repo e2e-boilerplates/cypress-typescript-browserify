@@ -1,6 +1,6 @@
 # cypress: (typescript, browserify)
 
-[![GitHub Actions status | e2e-boilerplates/cypress-typescript-browserify](https://github.com/e2e-boilerplates/cypress-typescript-browserify/workflows/NodeCI/badge.svg)](https://github.com/e2e-boilerplates/cypress-typescript-browserify/actions?workflow=NodeCI)
+[![GitHub Actions status | e2e-boilerplates/cypress-typescript-browserify](https://github.com/e2e-boilerplates/cypress-typescript-browserify/workflows/cypress-typescript-browserify/badge.svg)](https://github.com/e2e-boilerplates/cypress-typescript-browserify/actions?workflow=cypress-typescript-browserify)
 
 cypress end-to-end test automation boilerplate project. Using TypeScript and browserify.
 
