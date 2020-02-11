@@ -21,7 +21,7 @@
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
   "devDependencies": {
-    "@cypress/browserify-preprocessor": "2.1.3",
+    "@cypress/browserify-preprocessor": "2.1.4",
     "cypress": "4.0.1",
     "husky": "4.2.1",
     "lint-staged": "10.0.7",
