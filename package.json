@@ -1,22 +1,24 @@
 {
   "name": "cypress-typescript-browserify",
   "version": "1.0.0",
-  "description": "cypress end-to-end test automation boilerplate project. Using TypeScript and browserify.",
+  "description": "Cypress end-to-end test automation boilerplate, using TypeScript and browserify.",
   "scripts": {
-    "clean:video": "npx rimraf cypress/videos/*",
-    "clean:screenshots": "npx cypress/screenshots/*",
+    "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
+    "pretty": "npx prettier --no-config './cypress/**/*.ts' --write",
     "open": "npx cypress open",
     "test": "npx cypress run",
     "test-ci": "npx cypress run --headless",
-    "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
-    "pretty": "npx prettier --no-config './cypress/**/*.ts' --write"
+    "clean:video": "npx rimraf cypress/videos/*",
+    "clean:screenshots": "npx cypress/screenshots/*"
   },
   "keywords": [
     "cypress",
     "typescript",
     "browserify",
     "boilerplate",
-    "example"
+    "example",
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
@@ -29,8 +31,7 @@
     "ts-loader": "6.2.1",
     "tslint": "5.20.1",
     "tslint-config-prettier": "1.18.0",
-    "typescript": "3.7.5",
-    "webpack": "4.41.6"
+    "typescript": "3.7.5"
   },
   "husky": {
     "hooks": {

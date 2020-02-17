@@ -2,7 +2,7 @@
 
 [![GitHub Actions status | e2e-boilerplates/cypress-typescript-browserify](https://github.com/e2e-boilerplates/cypress-typescript-browserify/workflows/cypress-typescript-browserify/badge.svg)](https://github.com/e2e-boilerplates/cypress-typescript-browserify/actions?workflow=cypress-typescript-browserify)
 
-Cypress end-to-end test automation boilerplate, using TypeScript and browserify.
+Cypress end-to-end test automation boilerplate, using TypeScript and rowserify.
 
 ## Getting Started
 
