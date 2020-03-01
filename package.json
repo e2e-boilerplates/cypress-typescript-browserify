@@ -1,30 +1,10 @@
 {
-  "name": "cypress-typescript-browserify",
-  "version": "1.0.0",
-  "description": "Cypress end-to-end test automation boilerplate, using TypeScript and browserify.",
-  "scripts": {
-    "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
-    "pretty": "npx prettier --no-config './cypress/**/*.ts' --write",
-    "open": "npx cypress open",
-    "test": "npx cypress run",
-    "test-ci": "npx cypress run --headless",
-    "clean:video": "npx rimraf cypress/videos/*",
-    "clean:screenshots": "npx cypress/screenshots/*"
-  },
-  "keywords": [
-    "cypress",
-    "typescript",
-    "browserify",
-    "boilerplate",
-    "example",
-    "e2e",
-    "e2e test"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "description": "Cypress end-to-end test automation boilerplate, using TypeScript and browserify.",
   "devDependencies": {
     "@cypress/browserify-preprocessor": "2.1.4",
     "cypress": "4.0.2",
+    "eslint-plugin-json": "^2.1.0",
     "husky": "4.2.3",
     "lint-staged": "10.0.7",
     "prettier": "1.19.1",
@@ -38,10 +18,36 @@
       "pre-commit": "lint-staged"
     }
   },
+  "keywords": [
+    "boilerplate",
+    "browserify",
+    "cypress",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
+    "typescript"
+  ],
+  "license": "MIT",
   "lint-staged": {
     "*.{js,css,json,md}": [
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "name": "cypress-typescript-browserify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/cypress-typescript-browserify.git"
+  },
+  "scripts": {
+    "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
+    "pretty": "npx prettier --no-config './cypress/**/*.ts' --write",
+    "open": "npx cypress open",
+    "test": "npx cypress run",
+    "test-ci": "npx cypress run --headless",
+    "clean:video": "npx rimraf cypress/videos/*",
+    "clean:screenshots": "npx cypress/screenshots/*"
+  },
+  "version": "1.0.0"
 }
