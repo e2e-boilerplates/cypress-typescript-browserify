@@ -36,13 +36,13 @@
     "url": "git+https://github.com/e2e-boilerplates/cypress-typescript-browserify.git"
   },
   "scripts": {
-    "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
-    "pretty": "npx prettier --no-config './cypress/**/*.ts' --write",
-    "open": "npx cypress open",
-    "test": "npx cypress run",
-    "test-ci": "npx cypress run --headless",
+    "clean:screenshots": "npx cypress/screenshots/*",
     "clean:video": "npx rimraf cypress/videos/*",
-    "clean:screenshots": "npx cypress/screenshots/*"
+    "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
+    "open": "npx cypress open",
+    "pretty": "npx prettier --no-config './cypress/**/*.ts' --write",
+    "test": "npx cypress run",
+    "test-ci": "npx cypress run --headless"
   },
   "version": "1.0.0"
 }
