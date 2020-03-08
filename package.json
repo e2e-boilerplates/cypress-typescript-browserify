@@ -1,6 +1,6 @@
 {
-  "author": "",
-  "description": "Cypress end-to-end test automation boilerplate, using TypeScript and browserify.",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "description": "cypress end-to-end test automation boilerplate.",
   "devDependencies": {
     "@cypress/browserify-preprocessor": "2.1.4",
     "cypress": "4.0.2",
@@ -19,8 +19,13 @@
     }
   },
   "keywords": [
+    "boilerplate",
     "browserify",
     "cypress",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
     "typescript"
   ],
   "license": "MIT",
