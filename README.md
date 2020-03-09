@@ -1,12 +1,12 @@
-# Cypress: (TypeScript and browserify)
+[![GitHub Actions status | e2e-boilerplate/cypress-typescript-browserify-chai-should](https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should/workflows/cypress-typescript-browserify-chai-should/badge.svg)](https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should/actions?workflow=cypress-typescript-browserify-chai-should)
 
-[![GitHub Actions status | e2e-boilerplates/cypress-typescript-browserify](https://github.com/e2e-boilerplates/cypress-typescript-browserify/workflows/cypress-typescript-browserify/badge.svg)](https://github.com/e2e-boilerplates/cypress-typescript-browserify/actions?workflow=cypress-typescript-browserify)
+# Cypress Boilerplate
 
-Cypress end-to-end test automation boilerplate, using TypeScript and rowserify.
+Cypress end-to-end test automation boilerplate, using TypeScript, Browserify, Chai and Should.
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/cypress-typescript-browserify.git
-    cd cypress-typescript-browserify
-    npm install
-    npm run run
+git clone git@github.com:e2e-boilerplate/cypress-typescript-browserify-chai-should.git
+cd cypress-typescript-browserify-chai-should
+npm install
+npm run test
