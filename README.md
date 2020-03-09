@@ -6,7 +6,7 @@ Cypress end-to-end test automation boilerplate, using TypeScript, Browserify, Ch
 
 ## Getting Started
 
-    	git clone git@github.com:e2e-boilerplate/cypress-typescript-browserify-chai-should.git
-    	cd cypress-typescript-browserify-chai-should
-    	npm install
-    	npm run test
+    	1. git clone git@github.com:e2e-boilerplate/cypress-typescript-browserify-chai-should.git
+    	2. cd cypress-typescript-browserify-chai-should
+    	3. npm install
+    	4. npm run test
