@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/cypress-typescript-browserify-chai-should](https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should/workflows/cypress-typescript-browserify-chai-should/badge.svg)](https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should/actions?workflow=cypress-typescript-browserify-chai-should)
+[![GitHub Actions status | e2e-boilerplate/cypress-typescript-browserify-chai-should](https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should/workflows/cypress-typescript-browserify-chai-should/badge.svg)](https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should/actions?workflow=cypress-typescript-browserify-chai-should) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Cypress Boilerplate
 
