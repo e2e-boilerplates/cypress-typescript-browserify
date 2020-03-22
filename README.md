@@ -1,8 +1,8 @@
-[![GitHub Actions status | e2e-boilerplate/cypress-typescript-browserify-chai-should](https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should/workflows/cypress-typescript-browserify-chai-should/badge.svg)](https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should/actions?workflow=cypress-typescript-browserify-chai-should) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Actions status | e2e-boilerplate/cypress-typescript-browserify-chai-should](https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should/workflows/cypress-typescript-browserify-chai-should/badge.svg)](https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should/actions?workflow=cypress-typescript-browserify-chai-should) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Buy Me A Coffee](https://img.shields.io/badge/buy-me%20coffee-orange)](https://www.buymeacoffee.com/xgirma)
 
 # Cypress Boilerplate
 
-Cypress end-to-end test automation boilerplate, using TypeScript, Browserify, Chai and Should.
+Cypress end-to-end test automation boilerplate, Using TypeScript, Browserify, Chai and Should.
 
 ## Getting Started
 
