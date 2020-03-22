@@ -1,8 +1,9 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should/issues"
   },
+  "dependencies": {},
   "description": "Cypress end-to-end test automation boilerplate. using TypeScript, Browserify, Chai and Should.",
   "devDependencies": {
     "@cypress/browserify-preprocessor": "2.1.4",
@@ -13,6 +14,7 @@
     "ts-loader": "6.2.1",
     "tslint": "6.1.0",
     "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "^2.2.0",
     "typescript": "3.8.3"
   },
   "homepage": "https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should#readme",
@@ -22,14 +24,9 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "browserify",
     "chai",
     "cypress",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "should",
     "typescript"
   ],
@@ -50,11 +47,7 @@
     "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
     "open": "npx cypress open",
     "pretty": "npx prettier --no-config './cypress/**/*.ts' --write",
-    "test": "npx cypress run",
-    "test:ci": "npx cypress run --headless"
+    "test": "npx cypress run"
   },
-  "version": "1.0.0",
-  "dependencies": {
-    "tslint-plugin-prettier": "2.2.0"
-  }
+  "version": "1.0.0"
 }
