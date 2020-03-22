@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-should/issues"
   },
@@ -24,9 +24,14 @@
     }
   },
   "keywords": [
+    "boilerplate",
     "browserify",
     "chai",
     "cypress",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
     "should",
     "typescript"
   ],
