@@ -14,7 +14,11 @@
     "@cypress/browserify-preprocessor": "2.1.4",
     "@types/chai": "4.2.11",
     "eslint-plugin-cypress": "2.10.3",
+<<<<<<< HEAD
     "husky": "4.2.3",
+=======
+    "husky": "4.2.5",
+>>>>>>> d859810def30e9a1173b389188a03bc40aa103ee
     "lint-staged": "10.1.3",
     "prettier": "2.0.4",
     "tslint": "6.1.1",
